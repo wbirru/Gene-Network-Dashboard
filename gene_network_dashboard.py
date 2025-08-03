@@ -14,7 +14,7 @@ current_date = datetime.datetime.now().strftime("%A, %B %d, %Y")
 st.markdown(f"**📅 Date:** {current_date}")
 st.info("""
 This platform integrates genomic and therapeutic data, focusing on gene networks, drug-gene interactions, and dynamic network visualizations.
-It uses tools such as GeneMANIA, STRING, and Cytoscape + ClueGO, emphasizing user-friendly interfaces, API integration, and transparent data sources.
+It uses tools such as GeneMANIA, STRING-db, GAINT, Cytoscape + ClueGO, NetworkX and Pathway Commons emphasizing user-friendly interfaces, API integration, and transparent data sources.
 Developed for advanced gene network and pathway analysis in genomic research.
 """)
 
